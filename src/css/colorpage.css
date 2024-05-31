@@ -1,0 +1,192 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'helvetica', sans-serif; 
+}
+p{margin: 0;}
+h4{margin: 0px;}
+.rowGap-5{padding-bottom: 50px;}
+
+/* colors */
+.primaryOrange{background-color: #ff7b1d;}
+.primaryGreen{background-color: #17a954;}
+.redOrange{background-color: #fe5000;}
+.yellowOrange{background-color: #ffaa00;}
+.BeachBrown{background-color: #f4eec7;}
+.PeachFuzz{background-color: #FFBE98;}
+.LemonGreen{background-color: #ccda46;}
+.PearGreen{background-color: #76bc21;}
+.leaveGreen{background-color: #006837;}
+.blackGray{background-color: #011627;}
+.midnightGray{background-color: #38455d;}
+.steelGray{background-color: #64728c;}
+.spaceGray{background-color: #929baa;}
+.pastelGray{background-color: #cfd3de;}
+.moonLight{background-color: #e8eaef;}
+.lightGray{background-color: #f1f2f5;}
+.pastelWhite{background-color: #f6f5fb;}
+.whiteShadow{background-color: #fafafc;}
+.f-Blue{background-color: #1e6ceb;}
+.f-Red{background-color: #eb0910;}
+.f-Yellow{background-color: #ffa62f;}
+.f-Green{background-color: #34bc40;}
+.a-BurntOrange{background-color: #ca4d00;}
+.a-primaryOrange{background-color: #d65b04;}
+.a-primaryGreen{background-color: #114022;}
+.a-yellowOrange{background-color: #cb8e16;}
+.a-BeachBrown{background-color: #706d5c;}
+.a-PearGreen{background-color: #46643b;}
+.a-black{background-color: #000;}
+.gradient-orange{background: hsla(19, 100%, 50%, 1);
+    background: linear-gradient(90deg, hsla(19, 100%, 50%, 1) 0%, hsla(25, 100%, 83%, 1) 100%); 
+    background: -moz-linear-gradient(90deg, hsla(19, 100%, 50%, 1) 0%, hsla(25, 100%, 83%, 1) 100%);    
+    background: -webkit-linear-gradient(90deg, hsla(19, 100%, 50%, 1) 0%, hsla(25, 100%, 83%, 1) 100%); 
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF5100", endColorstr="#FFCBA6", GradientType=1 );
+}
+.gradient-green{background: hsla(100, 99%, 47%, 1);
+    background: linear-gradient(90deg, hsla(100, 99%, 47%, 1) 0%, hsla(80, 100%, 78%, 1) 100%); 
+    background: -moz-linear-gradient(90deg, hsla(100, 99%, 47%, 1) 0%, hsla(80, 100%, 78%, 1) 100%); 
+    background: -webkit-linear-gradient(90deg, hsla(100, 99%, 47%, 1) 0%, hsla(80, 100%, 78%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#50EE01", endColorstr="#DAFF8F", GradientType=1 );
+}
+.gradient-yellow{
+    background: hsla(40, 100%, 50%, 1);
+    background: linear-gradient(90deg, hsla(40, 100%, 50%, 1) 0%, hsla(38, 100%, 85%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(40, 100%, 50%, 1) 0%, hsla(38, 100%, 85%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(40, 100%, 50%, 1) 0%, hsla(38, 100%, 85%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFAA00", endColorstr="#FFE4B5", GradientType=1 );
+}
+.gradient-darkgreen{
+    background: hsla(152, 100%, 20%, 1);
+    background: linear-gradient(90deg, hsla(152, 100%, 20%, 1) 0%, hsla(152, 100%, 55%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(152, 100%, 20%, 1) 0%, hsla(152, 100%, 55%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(152, 100%, 20%, 1) 0%, hsla(152, 100%, 55%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#006837", endColorstr="#19FF94", GradientType=1 );
+}
+.gradient-OrnageYellow{
+    background: hsla(19, 100%, 50%, 1);
+background: linear-gradient(90deg, hsla(19, 100%, 50%, 1) 0%, hsla(40, 100%, 50%, 1) 100%);
+background: -moz-linear-gradient(90deg, hsla(19, 100%, 50%, 1) 0%, hsla(40, 100%, 50%, 1) 100%);
+background: -webkit-linear-gradient(90deg, hsla(19, 100%, 50%, 1) 0%, hsla(40, 100%, 50%, 1) 100%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FE5000", endColorstr="#FFAA00", GradientType=1 );
+}
+.gradient-blue{
+    background: hsla(212, 100%, 50%, 1);
+    background: linear-gradient(90deg, hsla(212, 100%, 50%, 1) 0%, hsla(195, 100%, 77%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(212, 100%, 50%, 1) 0%, hsla(195, 100%, 77%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(212, 100%, 50%, 1) 0%, hsla(195, 100%, 77%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0077FF", endColorstr="#89E1FF", GradientType=1 );
+}
+
+.colorPageWarp
+{
+    padding-top: 110px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+.bannerLeft
+{
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    padding-right: 25px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 300px;
+}
+.bannerRight
+{
+    padding-left: 25px;
+}
+.colorBanner
+{
+    background-color: #011627;
+    width: 100%;
+    height: 400px;
+    border-radius: 50px;
+    padding: 60px;
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-shadow:  20px 20px 60px #d0d0d0,
+             -20px -20px 60px #ffffff;
+
+}
+.colorBanner h1
+{
+   font-size: 80px;
+   color: white;
+   margin: 0px;
+   line-height: 1;
+}
+.colorbannerimg
+{
+    width: 300px;
+    padding-left: 25px;
+}
+
+.colorSwitchrow
+{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    column-gap: 50px;
+}
+.colorSwitch
+{
+    width: 210px;
+    height: 210px;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    column-gap: 30px;
+    color: white;
+}
+.gradientSwitch
+{
+    background-color: beige;
+    width: 200px;
+    height: 400px;
+    border-radius: 200px;
+}
+.lableRow
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-content: flex-start;
+    font-size: 25px;
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.lableRow p
+{
+    font-size: 16px;
+    color: #64728c;
+}
+.colorCode
+{
+    font-size: 16px;
+    font-weight: 900;
+  
+}
+.palettebannerimg
+{
+    width: 400px;
+    position: absolute;
+    top: 150px;
+    right: 140px;
+}
+.txtColorBlack{color: #011627;}
+.txtColorGray{color: #42464c;}
+.txtColorWhite{color: #fff;}

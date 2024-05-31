@@ -1,0 +1,235 @@
+
+@font-face {
+    font-family: 'helvetica', sans-serif;
+    src: url(../assets/fonts/HelveticaWorld-Regular.ttf);
+}
+@font-face {
+    font-family: 'helveticaRounded', sans-serif;
+    src: url(../assets/fonts/HelveticaRoundedLTStd-Bd.otf);
+}
+@font-face {
+    font-family: 'ahronbd', sans-serif;
+    src: url(../assets/fonts/ahronbd.ttf);
+}
+body
+{
+    margin: 00px;
+    padding: 00px;
+    box-sizing: border-box;
+}
+*
+{
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.homePageWrap
+{
+    min-height: 1000px;
+    font-family: "Open Sans", sans-serif;
+    background: #fff;
+}
+
+.heroLogo
+{
+    margin-top: -8px;
+    width: 1000px;
+    margin-left: 31px;
+}
+.OhrmLogo
+{
+    width: 250px;
+    position: absolute;
+    margin-left: 392px;
+    margin-top: 38px;
+}
+.oxdtxt
+{
+    font-size: 350px;
+    margin-top: 50px;
+    letter-spacing: -10px;
+    color: #f5ecdc;
+}
+
+.JamboTitle
+{
+    font-size:75px;
+    line-height: 0.92;
+    position: absolute;
+    text-align: center;
+    font-weight: 1000;
+    letter-spacing: -2px;  
+    margin-top: 400px;
+    color: #000;
+}
+.Swingarrow
+{
+    width: 172px;
+    position: absolute;
+    bottom: 60px;
+    left: 437px;
+    rotate: 10deg;
+}
+.pentool
+{
+    width: 60px;
+    position: absolute;
+    margin-top: 510px;
+    margin-left: -91px;
+}
+.homeBannerWarp
+{
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    background-image: url("../assets/img/herobg.jpg");
+    background-size: cover;
+    padding-top: 100px;
+    position: relative;
+ 
+    /* background: linear-gradient(0deg, rgba(224,224,224,1) 0%, rgba(255,255,255,1) 60%); */
+}
+.TitleExplore
+{
+    height: 200px;
+    display: flex;
+    font-size: 35px;
+    color: #000;
+    font-family: Helvetica, sans-serif;
+    font-weight: 900;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.MgGlass
+{
+    width: 100px;
+    margin-top: 57px;
+}
+.bentoMainwarp
+{
+   
+    min-height: 2000px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    column-gap: 25px;
+    row-gap: 25px;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.bentosidea
+{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 25px;
+    row-gap: 25px;
+    flex-grow: 1;
+}
+.bentosideb
+{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 25px;
+}
+
+.bentosidebc
+{
+    width: 100%;
+    display: flex;
+    column-gap: 25px;
+}
+
+
+.bentowrpa2
+{
+    height: 425px;
+    width: 100%;
+}
+
+.bentowrpa3
+{
+    height: 400px;
+    min-width: 200px;
+    flex: 1;
+}
+.bentowrpa4
+{
+    height: 400px;
+    min-width: 600px;
+    flex: 1;
+}
+.bentowrpa5
+{ 
+    height: 100%;
+    width: 100%;
+}
+.bentowrpa6
+{
+    height: 400px;
+    width: 300px;
+    flex: 1;
+}
+.bentowrpa7
+{
+    height: 400px;
+    width: 300px;
+    flex: 1;
+}
+.bentowrpa8
+{
+    height: 450px;
+    width: 400px;
+}
+.bentowrpa9
+{
+    height: 450px;
+    width: 400px;
+    flex-grow: 1;
+}
+.bentowrpa10
+{
+    height: 450px;
+    width: 400px;
+}
+
+.OtherLinkCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 20px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.Olinks
+{
+  padding: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border-radius: 100px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  
+}
+.Olinks img
+{
+    width: 25px;
+}
